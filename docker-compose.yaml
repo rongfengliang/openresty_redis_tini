@@ -1,0 +1,8 @@
+version: "3"
+services:
+    nginx-redis:
+      build: ./
+      image: dalongrong/appdemorong
+      ports:
+      - "6379:6379"
+      - "8099:80"
